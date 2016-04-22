@@ -9,8 +9,8 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Plugin.MapExtensions</RootNamespace>
-    <AssemblyName>Plugin.MapExtensions</AssemblyName>
+    <RootNamespace>MapExtensions.Forms.Plugin</RootNamespace>
+    <AssemblyName>MapExtensions.Forms.Plugin</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
@@ -36,7 +36,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Plugin.MapExtensions.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\MapExtensions.Forms.Plugin.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="FormsViewGroup, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -111,13 +111,7 @@
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Plugin.MapExtensions.Abstractions\Plugin.MapExtensions.Abstractions.csproj">
-      <Project>{6edb0588-ffc5-4ef5-8a99-9e241d0f878d}</Project>
-      <Name>Plugin.MapExtensions.Abstractions</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <Import Project="..\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared.projitems" Label="Shared" />
+  <Import Project="..\MapExtensions.Forms.Plugin.Shared\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.1.0.6529\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

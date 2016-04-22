@@ -7,8 +7,8 @@
     <ProjectGuid>{E34B516D-C0D8-450F-9DB0-BB6A5B04AEF1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Plugin.MapExtensions</RootNamespace>
-    <AssemblyName>Plugin.MapExtensions</AssemblyName>
+    <RootNamespace>MapExtensions.Forms.Plugin</RootNamespace>
+    <AssemblyName>MapExtensions.Forms.Plugin</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
@@ -35,7 +35,7 @@
     <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Plugin.MapExtensions.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\MapExtensions.Forms.Plugin.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <PlatformTarget>x86</PlatformTarget>
@@ -58,7 +58,7 @@
     <PlatformTarget>x86</PlatformTarget>
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <ErrorReport>prompt</ErrorReport>
-    <DocumentationFile>bin\Release\Plugin.MapExtensions.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\MapExtensions.Forms.Plugin.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <PlatformTarget>ARM</PlatformTarget>
@@ -113,13 +113,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Plugin.MapExtensions.UWP.rd.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Plugin.MapExtensions.Abstractions\Plugin.MapExtensions.Abstractions.csproj">
-      <Project>{6edb0588-ffc5-4ef5-8a99-9e241d0f878d}</Project>
-      <Name>Plugin.MapExtensions.Abstractions</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <Import Project="..\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared.projitems" Label="Shared" />
+  <Import Project="..\MapExtensions.Forms.Plugin.Shared\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared.projitems" Label="Shared" />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
