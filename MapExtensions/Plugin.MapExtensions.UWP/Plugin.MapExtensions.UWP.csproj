@@ -58,7 +58,7 @@
     <PlatformTarget>x86</PlatformTarget>
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <ErrorReport>prompt</ErrorReport>
-      <DocumentationFile>bin\Release\Plugin.MapExtensions.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Plugin.MapExtensions.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <PlatformTarget>ARM</PlatformTarget>
@@ -109,10 +109,7 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\Plugin.MapExtensions\CrossMapExtensions.cs">
-      <Link>CrossMapExtensions.cs</Link>
-    </Compile>
-    <Compile Include="MapExtensionsImplementation.cs" />
+    <Compile Include="MapClickEffectImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Plugin.MapExtensions.UWP.rd.xml" />
   </ItemGroup>
@@ -122,6 +119,7 @@
       <Name>Plugin.MapExtensions.Abstractions</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="..\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared.projitems" Label="Shared" />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

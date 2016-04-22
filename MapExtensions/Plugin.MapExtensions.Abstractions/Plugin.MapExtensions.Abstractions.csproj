@@ -37,7 +37,6 @@
     <DocumentationFile>bin\Release\Plugin.MapExtensions.Abstractions.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="IMapExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

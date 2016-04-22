@@ -19,7 +19,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.MapExtensions.Window
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.MapExtensions.UWP", "MapExtensions\Plugin.MapExtensions.UWP\Plugin.MapExtensions.UWP.csproj", "{E34B516D-C0D8-450F-9DB0-BB6A5B04AEF1}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Plugin.MapExtensions.Shared", "MapExtensions\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared.shproj", "{626A145E-32DB-46A0-9043-FC7228827379}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MapExtensions\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared.projitems*{56a56f17-7de1-4ca1-9617-bf32e971ac84}*SharedItemsImports = 4
+		MapExtensions\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared.projitems*{e34b516d-c0d8-450f-9db0-bb6a5b04aef1}*SharedItemsImports = 4
+		MapExtensions\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared.projitems*{2882aeeb-d4cd-4eb9-8a6c-6653b33681f0}*SharedItemsImports = 4
+		MapExtensions\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared.projitems*{626a145e-32db-46a0-9043-fc7228827379}*SharedItemsImports = 13
+		MapExtensions\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared\Plugin.MapExtensions.Shared.projitems*{a6fcef44-d2ba-42c7-b3cb-13667bcd7b54}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		AppStore|Any CPU = AppStore|Any CPU
 		AppStore|ARM = AppStore|ARM
