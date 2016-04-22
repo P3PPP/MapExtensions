@@ -5,7 +5,7 @@ using Xamarin.Forms.Platform.iOS;
 using MapKit;
 using UIKit;
 
-namespace Plugin.MapExtensions
+namespace MapExtensions.Forms.Plugin
 {
 	partial class MapClickEffect : PlatformEffect, IMapClickExtension
 	{

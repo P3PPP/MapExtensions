@@ -8,7 +8,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 using Xamarin.Forms.Platform.UWP;
 
-namespace Plugin.MapExtensions
+namespace MapExtensions.Forms.Plugin
 {
 	partial class MapClickEffect : PlatformEffect, IMapClickExtension
 	{

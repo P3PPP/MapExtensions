@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Windows.Input;
 
-namespace Plugin.MapExtensions
+namespace MapExtensions.Forms.Plugin
 {
 	internal static class ExtensionMethods
 	{

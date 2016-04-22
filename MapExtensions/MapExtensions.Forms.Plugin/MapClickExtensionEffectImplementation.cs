@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace Plugin.MapExtensions
+namespace MapExtensions.Forms.Plugin
 {
 	partial class MapClickEffect : RoutingEffect
 	{

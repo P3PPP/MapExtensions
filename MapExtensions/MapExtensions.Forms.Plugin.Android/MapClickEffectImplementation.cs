@@ -4,7 +4,7 @@ using Xamarin.Forms.Platform.Android;
 using Android.Gms.Maps;
 using Xamarin.Forms.Maps;
 
-namespace Plugin.MapExtensions
+namespace MapExtensions.Forms.Plugin
 {
 	partial class MapClickEffect : PlatformEffect, IMapClickExtension
 	{

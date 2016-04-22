@@ -9,7 +9,7 @@
     <Import_RootNamespace>MapExtensions.Forms.Plugin.Shared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)ClickExtensionBehavior.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ClickBehavior.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExtensionMethods.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MapClickEffect.cs" />
   </ItemGroup>

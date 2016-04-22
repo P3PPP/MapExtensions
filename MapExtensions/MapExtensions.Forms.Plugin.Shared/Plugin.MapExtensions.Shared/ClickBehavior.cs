@@ -3,7 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 using System.Windows.Input;
 
-namespace Plugin.MapExtensions
+namespace MapExtensions.Forms.Plugin
 {
 	public class ClickBehavior : Behavior<Map>
 	{
