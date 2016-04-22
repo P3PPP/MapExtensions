@@ -4,8 +4,7 @@
 		<id>Xam.MapExtensions.Forms.Plugin</id>
 		<version>1.0.0</version>
 		<title>Map Extension Behaviors Plugin for Xamarin.Forms</title>
-		<authors>P3PPP</authors>
-		<owners>P3PPP</owners>
+		<authors>@ticktackmobile</authors>
     <licenseUrl>https://github.com/P3PPP/MapExtensions/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/P3PPP/MapExtensions</projectUrl>
 
