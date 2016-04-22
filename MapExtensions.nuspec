@@ -6,16 +6,14 @@
 		<title>Map Extension Behaviors Plugin for Xamarin.Forms</title>
 		<authors>P3PPP</authors>
 		<owners>P3PPP</owners>
-    <licenseUrl>http://MapExtensions.com/license</licenseUrl>
-    <projectUrl>http://MapExtensions.com</projectUrl>
-		<!--Default Icon, a template can be found:  https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon.png-->  
-		<iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
+    <licenseUrl>https://github.com/P3PPP/MapExtensions/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/P3PPP/MapExtensions</projectUrl>
 
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>
-      Map control extensions for Xamarin.Forms.
+      Map Extension Behaviors Plugin for Xamarin.Forms.
     </description>
-		<summary>Map control extensions for Xamarin.Forms.</summary>
+		<summary>Map Extension Behaviors Plugin for Xamarin.Forms.</summary>
 		<tags>xamarin, pcl, xam.pcl, plugin, plugin for xamarin, windows phone, winphone, wp8, winrt, android, xamarin.forms, ios</tags>
 		<dependencies>
       <dependency id="Xamarin.Forms" version="2.1.0.6529" />
