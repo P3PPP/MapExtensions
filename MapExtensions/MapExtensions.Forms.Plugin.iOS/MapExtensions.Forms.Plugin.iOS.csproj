@@ -38,6 +38,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="MapClickEffectImplementation.cs" />
+    <Compile Include="MapOverlayEffectImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

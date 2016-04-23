@@ -37,6 +37,7 @@
     <DocumentationFile>bin\Release\MapExtensions.Forms.Plugin.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="MapOverlayEffectImplementation.cs" />
     <Compile Include="MapClickExtensionEffectImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

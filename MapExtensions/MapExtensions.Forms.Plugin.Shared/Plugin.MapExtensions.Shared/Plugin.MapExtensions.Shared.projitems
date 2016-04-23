@@ -6,11 +6,13 @@
     <SharedGUID>626a145e-32db-46a0-9043-fc7228827379</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>MapExtensions.Forms.Plugin.Shared</Import_RootNamespace>
+    <Import_RootNamespace>MapExtensions.Forms.Plugin</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)ClickBehavior.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\ExtensionMethods.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MapOverlayEffect.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MapClickEffect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OverlayBehavior.cs" />
   </ItemGroup>
 </Project>
