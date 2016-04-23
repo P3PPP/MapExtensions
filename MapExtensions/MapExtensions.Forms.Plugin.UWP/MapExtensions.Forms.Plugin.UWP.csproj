@@ -109,6 +109,8 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\ExtensionMethods.cs" />
+    <Compile Include="MapOverlayEffectImplementation.cs" />
     <Compile Include="MapClickEffectImplementation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Plugin.MapExtensions.UWP.rd.xml" />
